@@ -1,5 +1,3 @@
-# Tutorials
-
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 
 Daisy is a cloud-connected compiler pass providing *compiler optimizations as a service (COaaS)*.
