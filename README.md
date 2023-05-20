@@ -4,7 +4,7 @@ Daisy is a cloud-connected compiler pass providing *compiler optimizations as a 
 Daisy *transfer tunes* optimizations available from customizable databases using [performance embeddings](https://arxiv.org/abs/2303.08142). 
 This repository provides tutorials demonstrating daisy for the supported platforms.
 
-<img src="figures/overview_fig.png" width="500" />
+<p align="center"><img src="figures/overview_fig.png" width="500"/></p>
 
 **Source:** [Performance Embeddings: A Similarity-based Approach to Automatic Performance Optimization](https://arxiv.org/abs/2303.08142)
 
