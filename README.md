@@ -8,6 +8,8 @@ This repository provides tutorials demonstrating daisy for the supported platfor
 
 <img src="figures/overview_fig.png" width="500" />
 
+**Source:** [Performance Embeddings: A Similarity-based Approach to Automatic Performance Optimization](https://arxiv.org/abs/2303.08142)
+
 ## Installation
 
 Daisy relies on tools for performance profiling and machine learning to match optimizations to programs. The following sections explain how to set up a conda virtual environment for Daisy.
