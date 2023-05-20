@@ -52,3 +52,7 @@ conda install -c conda-forge pytorch-lightning torchmetrics
 ```bash
 pip install daisytuner
 ```
+and update to latest DaCe:
+```bash
+pip install git+https://github.com/spcl/dace.git
+```
