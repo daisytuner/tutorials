@@ -1,7 +1,7 @@
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 
 Daisy is a cloud-connected compiler pass providing *compiler optimizations as a service (COaaS)*.
-Daisy *transfer tunes* optimizations available from databases using [performance embeddings](https://arxiv.org/abs/2303.08142). 
+Daisy *transfer tunes* optimizations available from customizable databases using [performance embeddings](https://arxiv.org/abs/2303.08142). 
 This repository provides tutorials demonstrating daisy for the supported platforms.
 
 <img src="figures/overview_fig.png" width="500" />
