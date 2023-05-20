@@ -1,4 +1,5 @@
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![stability-alpha](https://img.shields.io/badge/stability-alpha-f4d03f.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#alpha)
 
 Daisy is a cloud-connected compiler pass providing *compiler optimizations as a service (COaaS)*.
 Daisy *transfer tunes* optimizations available from customizable databases using [performance embeddings](https://arxiv.org/abs/2303.08142). 
