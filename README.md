@@ -19,12 +19,6 @@ LIKWID can be installed in several ways, but we recommend installing it locally 
 ```bash
 conda install -c lukastruemper likwid
 ```
-(Temporary Solution) We need to make the headers and libraries available:
-```bash
-export CPATH=$CONDA_PREFIX/include:$CPATH
-export LIBRARY_PATH=$CONDA_PREFIX/lib:$LIBRARY_PATH
-export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
-```
 Furthermore, to be able to read those counters, the *perf_event paranoid level* needs to be set to 0, which allows access to core (CPU) and uncore events (e.g., DRAM controller, I/O):
 ```bash
 # Obtain the current value
