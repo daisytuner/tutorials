@@ -31,17 +31,7 @@ sudo sysctl -w kernel.perf_event_paranoid=0
 ```
 The perf_event paranoid level is a system-wide property. However, it is possible to only set those permissions per user and process through Linux capabilities. A detailed discussion of this topic is given in the documentation of [Intel VTune](https://www.intel.com/content/www/us/en/docs/vtune-profiler/cookbook/2023-0/profiling-hardware-without-sampling-drivers.html).
 
-**Step 2 (PyTorch):** Daisy runs PyTorch to produce embeddings of your code and machine. PyTorch libraries can be installed easily via conda:
-
-```bash
-# PyTorch
-conda install -c pytorch pytorch torchvision torchaudio cpuonly
-# Additional libraries
-conda install -c pyg pyg
-conda install -c conda-forge pytorch-lightning torchmetrics
-```
-
-**Step 3 (Daisy):** Finally, the Daisy python package can be installed:
+**Step 2 (Daisy):** The Daisy python package can be installed:
 ```bash
 pip install daisytuner
 ```
